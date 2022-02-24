@@ -41,8 +41,8 @@ function dkan_acquia_search_solr_default_search_api_server() {
         'class' => 'acquia_search_service',
         'enabled' => 0,
         'options' => array(
-          'port' => 80,
-          'scheme' => 'http',
+          'port' => 443,
+          'scheme' => 'https',
           'http_method' => 'AUTO',
           'clean_ids' => true,
           'site_hash' => true,
